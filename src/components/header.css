@@ -1,0 +1,20 @@
+.header,
+.left,
+.right, .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.header {
+  padding: 0 1em;
+  background: white;
+  box-shadow: 8px 1px gainsboro;
+}
+
+.left {
+  flex-basis: 30%;
+}
+.search {
+  flex-basis: 50%;
+}
